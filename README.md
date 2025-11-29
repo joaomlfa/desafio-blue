@@ -194,7 +194,8 @@ Exemplo de uso:
 
 O script já foi marcado como executável no repositório; se necessário, torne-o executável localmente com `chmod +x scripts/start-docker.sh`.
 
-#Frontend
+## Frontend
+
 Na pasta frontend possui o sistema em vue js, basta entrar na mesma e rodar com o comando.
 
 ```bash
