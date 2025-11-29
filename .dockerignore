@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+**/*.user
+**/*.suo
+.vscode/
+DesafioBlue.Tests/
+.git
+node_modules/
+*.log
+docker-compose.override.yml

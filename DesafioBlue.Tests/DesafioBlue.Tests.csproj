@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+  <PackageReference Include="xunit" Version="2.4.2" />
+  <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+  <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../DesafioBlue/DesafioBlue.csproj" />
+  </ItemGroup>
+
+</Project>

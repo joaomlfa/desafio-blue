@@ -1,0 +1,6 @@
+@DesafioBlue_HostAddress = http://localhost:5285
+
+GET {{DesafioBlue_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
